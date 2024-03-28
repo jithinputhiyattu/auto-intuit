@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>pom</packaging>
 	<modules>
-		<module>webflux17-app</module>
-		<module>webflux17-adapter</module>
+		<module>autointuit-app</module>
+		<module>autointuit-adapter</module>
 		<module>webflux17-common</module>
 		<module>webflux17-infra</module>
 		<module>webflux17-service</module>
@@ -19,7 +19,7 @@
 	</parent>
 	<groupId>com.dreamblitz</groupId>
 	<artifactId>webflux17</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>web-flux17</name>
 	<description>Web Flux with Java 17 - Spring Boot project</description>
 	<properties>
@@ -32,18 +32,18 @@
 
 		<dependency>
 			<groupId>com.dreamblitz</groupId>
-			<artifactId>webflux17-app</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>autointuit-app</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.dreamblitz</groupId>
-			<artifactId>webflux17-adapter</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>autointuit-adapter</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.dreamblitz</groupId>
 			<artifactId>webflux17-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
