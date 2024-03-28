@@ -7,9 +7,9 @@
 		<module>autointuit-app</module>
 		<module>autointuit-adapter</module>
 		<module>webflux17-common</module>
-		<module>webflux17-infra</module>
+		<module>autointuit-infra</module>
 		<module>webflux17-service</module>
-		<module>webflux17-domain</module>
+		<module>autointuit-domain</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

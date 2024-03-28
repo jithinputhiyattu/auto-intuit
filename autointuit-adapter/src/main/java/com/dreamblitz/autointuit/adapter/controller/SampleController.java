@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping(path = "/web-flux17")
+@RequestMapping(path = "/auto-intuit-1")
 public class SampleController {
 
     @Autowired

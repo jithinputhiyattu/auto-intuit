@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="autointuit-service" />
         <module name="webflux17-infra" />
         <module name="autointuit-adapter" />
         <module name="webflux17-common" />
@@ -14,7 +15,6 @@
         <module name="autointuit-domain" />
         <module name="webflux17-domain" />
         <module name="autointuit-common" />
-        <module name="webflux17-service" />
         <module name="autointuit-infra" />
       </profile>
     </annotationProcessing>
@@ -36,11 +36,11 @@
       <module name="autointuit-common" options="-parameters" />
       <module name="autointuit-domain" options="-parameters" />
       <module name="autointuit-infra" options="-parameters" />
+      <module name="autointuit-service" options="-parameters" />
       <module name="webflux17" options="-parameters" />
       <module name="webflux17-common" options="-parameters" />
       <module name="webflux17-domain" options="-parameters" />
       <module name="webflux17-infra" options="-parameters" />
-      <module name="webflux17-service" options="-parameters" />
     </option>
   </component>
 </project>

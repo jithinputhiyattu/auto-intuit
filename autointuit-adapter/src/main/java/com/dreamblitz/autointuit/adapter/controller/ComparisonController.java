@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping(path = "/web-flux18")
-public class SampleController2 {
+@RequestMapping(path = "/auto-comparison")
+public class ComparisonController {
     @Autowired
     private SampleService sampleService;
 
