@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarComparisonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/ComparisonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/ComparisonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-app/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autointuit-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17ErrorCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/AutoIntuitErrorCodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17ErrorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/AutoIntuitErrorDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/AutoIntuitException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17InvalidInputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/AutoIntuitInvalidInputException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17UnhandledException.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/AutoIntuitUnhandledException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/AuthSignatureGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/SampleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/SampleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/repository/ICarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/repository/ICarRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
