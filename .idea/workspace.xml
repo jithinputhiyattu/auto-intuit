@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-app/target/webflux17-app-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/target/webflux17-app-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/2024-03-28T19-49-14_892.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.CreateMonoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.CreateMonoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.CustomBiConsumerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.CustomBiConsumerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.FluxAndBackPressureTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.FluxAndBackPressureTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.InfiniteStreamTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.InfiniteStreamTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.OnErrorResumeVsOnErrorContinueTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.utils.OnErrorResumeVsOnErrorContinueTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.utils.CreateMonoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.utils.CreateMonoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.utils.FluxAndBackPressureTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.utils.FluxAndBackPressureTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.utils.OnErrorResumeVsOnErrorContinueTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.utils.OnErrorResumeVsOnErrorContinueTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/AuthSignatureGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/AuthSignatureGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
