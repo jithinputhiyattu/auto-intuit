@@ -1,4 +1,4 @@
-package com.dreamblitz.webflux17.common.exception;
+package com.dreamblitz.autointuit.common.exception;
 
 
 import lombok.Getter;

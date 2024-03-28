@@ -1,7 +1,7 @@
 package com.dreamblitz.autointuit.adapter.controller;
 
 
-import com.dreamblitz.webflux17.common.exception.AutoIntuitUnhandledException;
+import com.dreamblitz.autointuit.common.exception.AutoIntuitUnhandledException;
 import com.dreamblitz.webflux17.service.SampleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

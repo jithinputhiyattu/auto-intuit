@@ -1,15 +1,13 @@
-package com.dreamblitz.webflux17.common.test.utils;
+package com.dreamblitz.autointuit.common.test.utils;
 
-import com.dreamblitz.webflux17.common.utils.CustomBiConsumer;
+import com.dreamblitz.autointuit.common.utils.CustomBiConsumer;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.mockito.MockitoAnnotations;
 
-import java.awt.*;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)

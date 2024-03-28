@@ -1,8 +1,8 @@
 package com.dreamblitz.autointuit.adapter.controller;
 
-import com.dreamblitz.webflux17.common.exception.AutoIntuitErrorDetails;
-import com.dreamblitz.webflux17.common.exception.AutoIntuitInvalidInputException;
-import com.dreamblitz.webflux17.common.exception.AutoIntuitUnhandledException;
+import com.dreamblitz.autointuit.common.exception.AutoIntuitErrorDetails;
+import com.dreamblitz.autointuit.common.exception.AutoIntuitInvalidInputException;
+import com.dreamblitz.autointuit.common.exception.AutoIntuitUnhandledException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

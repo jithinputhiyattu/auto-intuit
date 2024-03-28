@@ -1,21 +1,18 @@
-package com.dreamblitz.webflux17.common.test.utils;
+package com.dreamblitz.autointuit.common.test.utils;
 
-import com.dreamblitz.webflux17.common.utils.Custom9KSubscriber;
-import com.dreamblitz.webflux17.common.utils.CustomSubscriber;
-import com.dreamblitz.webflux17.common.utils.FluxAndBackPressure;
+import com.dreamblitz.autointuit.common.utils.Custom9KSubscriber;
+import com.dreamblitz.autointuit.common.utils.CustomSubscriber;
+import com.dreamblitz.autointuit.common.utils.FluxAndBackPressure;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
-import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Scheduler;
 import reactor.core.scheduler.Schedulers;
 
 import java.util.*;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class FluxAndBackPressureTest {

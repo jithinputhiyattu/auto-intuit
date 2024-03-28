@@ -1,6 +1,6 @@
-package com.dreamblitz.webflux17.common.test.utils;
+package com.dreamblitz.autointuit.common.test.utils;
 
-import com.dreamblitz.webflux17.common.utils.InfiniteStream;
+import com.dreamblitz.autointuit.common.utils.InfiniteStream;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

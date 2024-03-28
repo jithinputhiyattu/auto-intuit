@@ -1,6 +1,6 @@
 package com.dreamblitz.webflux17.service;
 
-import com.dreamblitz.webflux17.common.exception.AutoIntuitException;
+import com.dreamblitz.autointuit.common.exception.AutoIntuitException;
 import reactor.core.publisher.Mono;
 
 public abstract class IService {

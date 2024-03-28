@@ -1,7 +1,7 @@
 package com.dreamblitz.autointuit.adapter.controller;
 
 import com.dreamblitz.autointuit.service.ComparisonServices;
-import com.dreamblitz.webflux17.common.exception.AutoIntuitUnhandledException;
+import com.dreamblitz.autointuit.common.exception.AutoIntuitUnhandledException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
