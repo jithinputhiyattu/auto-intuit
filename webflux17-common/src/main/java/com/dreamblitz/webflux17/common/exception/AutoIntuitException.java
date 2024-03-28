@@ -7,26 +7,26 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Getter
-public abstract class WF17Exception extends Exception {
+public abstract class AutoIntuitException extends Exception {
 
     private final HttpStatus httpErrorCode;
 
-    private final List<WF17ErrorDetails> errors;
+    private final List<AutoIntuitErrorDetails> errors;
 
-    public WF17Exception(HttpStatus httpErrorCode, WF17ErrorDetails err) {
+    public AutoIntuitException(HttpStatus httpErrorCode, AutoIntuitErrorDetails err) {
         this.httpErrorCode = httpErrorCode;
         this.errors = new ArrayList<>();
         this.errors.add(err);
         
     }
 
-    public WF17Exception(HttpStatus httpErrorCode, List<WF17ErrorDetails> err) {
+    public AutoIntuitException(HttpStatus httpErrorCode, List<AutoIntuitErrorDetails> err) {
         this.httpErrorCode = httpErrorCode;
         this.errors = new ArrayList<>();
         this.errors.addAll(err);
     }
 
-    public void addError(List<WF17ErrorDetails> err) {
+    public void addError(List<AutoIntuitErrorDetails> err) {
         this.errors.addAll(err);
     }
 

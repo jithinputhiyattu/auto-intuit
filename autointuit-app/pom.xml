@@ -5,7 +5,7 @@
     <parent>
         <artifactId>webflux17</artifactId>
         <groupId>com.dreamblitz</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>autointuit-app</artifactId>
@@ -14,7 +14,7 @@
         <dependency>
             <groupId>com.dreamblitz</groupId>
             <artifactId>autointuit-adapter</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
         </dependency>
 
         <dependency>

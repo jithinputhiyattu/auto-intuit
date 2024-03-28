@@ -1,6 +1,7 @@
 package com.dreamblitz.autointuit.adapter.controller;
 
-import com.dreamblitz.webflux17.common.exception.WF17UnhandledException;
+
+import com.dreamblitz.webflux17.common.exception.AutoIntuitUnhandledException;
 import com.dreamblitz.webflux17.service.SampleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,12 +19,12 @@ public class SampleController {
     private SampleService sampleService;
 
     @RequestMapping(value = "/sample", method = RequestMethod.GET)
-    public Mono<ResponseEntity<String>> getDistributionsStatus() throws WF17UnhandledException {
+    public Mono<ResponseEntity<String>> getDistributionsStatus() throws AutoIntuitUnhandledException {
        return sampleService.sampleResponse().map( text -> new ResponseEntity<>(text + " Jai", HttpStatus.OK));
     }
 
     @RequestMapping(value = "/sample2", method = RequestMethod.GET)
-    public Mono<ResponseEntity<String>> getDistributionsStatus2() throws WF17UnhandledException {
+    public Mono<ResponseEntity<String>> getDistributionsStatus2() throws AutoIntuitUnhandledException {
         return sampleService.sampleResponse().map( text -> new ResponseEntity<>(text + " Jai", HttpStatus.OK));
     }
 

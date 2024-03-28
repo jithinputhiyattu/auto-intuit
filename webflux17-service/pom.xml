@@ -5,7 +5,7 @@
     <parent>
         <artifactId>webflux17</artifactId>
         <groupId>com.dreamblitz</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.dreamblitz</groupId>
             <artifactId>webflux-common</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

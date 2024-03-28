@@ -1,7 +1,7 @@
 package com.dreamblitz.autointuit.adapter.controller;
 
-import com.dreamblitz.webflux17.common.exception.WF17UnhandledException;
-import com.dreamblitz.webflux17.service.SampleService;
+import com.dreamblitz.autointuit.service.ComparisonServices;
+import com.dreamblitz.webflux17.common.exception.AutoIntuitUnhandledException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,10 +14,10 @@ import reactor.core.publisher.Mono;
 @RequestMapping(path = "/auto-comparison")
 public class ComparisonController {
     @Autowired
-    private SampleService sampleService;
+    private ComparisonServices comparisonServices;
 
-    @RequestMapping(value = "/sample2", method = RequestMethod.GET)
-    public Mono<ResponseEntity<String>> getDistributionsStatus2() throws WF17UnhandledException {
-        return sampleService.sampleResponse().map( text -> new ResponseEntity<>(text + " Jai", HttpStatus.OK));
+    @RequestMapping(value = "/compare", method = RequestMethod.GET)
+    public Mono<ResponseEntity<String>> compareCars(String vehicleId1, String vehicleId2 ) throws AutoIntuitUnhandledException {
+        return comparisonServices.sampleResponse().map( text -> new ResponseEntity<>(text + " Jai", HttpStatus.OK));
     }
 }

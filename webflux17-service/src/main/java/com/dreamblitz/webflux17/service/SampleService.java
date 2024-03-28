@@ -8,7 +8,7 @@ import reactor.core.publisher.Mono;
 @Service
 public class SampleService extends IService {
 
-    public Mono<String> sampleResponse() throws WF17UnhandledException {
+    public Mono<String> sampleResponse() throws AutoIntuitUnhandledException {
      try {
         String x = null;
         if(x.toString()=="y") {
@@ -18,13 +18,13 @@ public class SampleService extends IService {
        // return  Mono.just("Jithin ....");
 
      } catch (Exception exception) {
-       throw  WF17UnhandledException.getInstance(exception);
+       throw  AutoIntuitUnhandledException.getInstance(exception);
      }
    }
 
     @Override
-    public WF17Exception createErrorResponse(Throwable throwable) {
-         return new WF17InvalidInputException(HttpStatus.BAD_REQUEST,
-            new WF17ErrorDetails(WF17ErrorCodes.UNKNOWN_ERROR,"Testing error"));
+    public AutoIntuitException createErrorResponse(Throwable throwable) {
+         return new AutoIntuitInvalidInputException(HttpStatus.BAD_REQUEST,
+            new AutoIntuitErrorDetails(AutoIntuitErrorCodes.UNKNOWN_ERROR,"Testing error"));
     }
 }

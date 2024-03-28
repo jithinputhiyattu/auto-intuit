@@ -19,7 +19,7 @@
 	</parent>
 	<groupId>com.dreamblitz</groupId>
 	<artifactId>webflux17</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>web-flux17</name>
 	<description>Web Flux with Java 17 - Spring Boot project</description>
 	<properties>
@@ -33,17 +33,17 @@
 		<dependency>
 			<groupId>com.dreamblitz</groupId>
 			<artifactId>autointuit-app</artifactId>
-			<version>0.0.2-SNAPSHOT</version>
+			<version>0.0.3-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.dreamblitz</groupId>
 			<artifactId>autointuit-adapter</artifactId>
-			<version>0.0.2-SNAPSHOT</version>
+			<version>0.0.3-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.dreamblitz</groupId>
 			<artifactId>webflux17-common</artifactId>
-			<version>0.0.2-SNAPSHOT</version>
+			<version>0.0.3-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 

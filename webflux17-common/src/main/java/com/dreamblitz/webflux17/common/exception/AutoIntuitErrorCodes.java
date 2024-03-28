@@ -1,8 +1,8 @@
 package com.dreamblitz.webflux17.common.exception;
 
-public class WF17ErrorCodes {
+public class AutoIntuitErrorCodes {
 
-    private WF17ErrorCodes() {
+    private AutoIntuitErrorCodes() {
         throw new AssertionError("You are not allowed to create instance of error code class.");
     }
 
