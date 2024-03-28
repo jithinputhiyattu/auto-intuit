@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/repository/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/BodyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/FourWheeler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SampleController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/ComparisonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-domain/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-domain/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-infra/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-infra/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,14 +61,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webflux17-adapter/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/autointuit-domain" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dreamblitz.autointuit.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/autointuit-domain" />
+      <recent name="$PROJECT_DIR$/autointuit-infra" />
       <recent name="$PROJECT_DIR$/webflux17-adapter/src/main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">

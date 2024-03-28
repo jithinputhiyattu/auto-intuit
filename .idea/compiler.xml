@@ -12,10 +12,15 @@
         <module name="autointuit-adapter" />
         <module name="webflux17-common" />
         <module name="autointuit-app" />
-        <module name="autointuit-domain" />
         <module name="webflux17-domain" />
         <module name="autointuit-common" />
         <module name="autointuit-infra" />
+      </profile>
+      <profile name="Annotation profile for web-flux17" enabled="true">
+        <sourceOutputDir name="../webflux17-domain/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../webflux17-domain/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="autointuit-domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
