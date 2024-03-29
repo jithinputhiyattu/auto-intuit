@@ -22,9 +22,13 @@ public class ComparisonController {
     @Autowired
     private ComparisonServices comparisonServices;
 
-    @RequestMapping(value = "/compare", method = RequestMethod.GET)
-    @JsonIgnore
+    @RequestMapping(value = "/compare2", method = RequestMethod.GET)
     public Mono<ResponseEntity<Map<String, LinkedHashMap>>> compareCars(String vehicleId1, String vehicleId2, Boolean hideCommon ) throws AutoIntuitUnhandledException {
         return comparisonServices.compareCars(vehicleId1,vehicleId2,hideCommon ).map( object -> new ResponseEntity<>(object , HttpStatus.OK));
+    }
+
+    @RequestMapping(value = "/compare", method = RequestMethod.GET)
+    public Mono<ResponseEntity<Map<String, LinkedHashMap>>> compareNCars(String[] vehicleId, Boolean hideCommon ) throws AutoIntuitUnhandledException {
+        return comparisonServices.compareCars(vehicleId,hideCommon ).map( object -> new ResponseEntity<>(object , HttpStatus.OK));
     }
 }

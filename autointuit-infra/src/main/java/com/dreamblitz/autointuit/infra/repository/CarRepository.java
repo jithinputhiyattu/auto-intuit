@@ -31,9 +31,13 @@ public class CarRepository implements ICarRepository {
     @PostConstruct
     public void init() {
         System.out.println("init");
-        List<String> carIds =new ArrayList<>();
-        carIds.add("carHyundaiVenue2022");
-        carIds.add("carToyotaFortuner2022");
+        String [] carIds = {
+                "carHyundaiVenueSPlusPetrol2022",
+                "carToyotaFortuner2022",
+                "carHyundaiCreta2022",
+                "carHyundaiVenueSPlusDiesel2022"
+        };
+
         for(String id : carIds) {
             System.out.println("Putting : " +  id);
             CarEntity entity = infraUtils.getFromJson("/dto/" + id +".json", CarEntity.class);
