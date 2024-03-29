@@ -11,7 +11,7 @@ import java.util.List;
 
 
 @RestControllerAdvice
-public class GenericExceptionController {
+public class GenericExceptionHandler {
 
 
     @ExceptionHandler(value = {AutoIntuitInvalidInputException.class})

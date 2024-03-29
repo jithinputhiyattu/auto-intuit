@@ -12,20 +12,15 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping(path = "/auto-intuit-1")
-public class SampleController {
+@RequestMapping(path = "/auto-car")
+public class CarController {
 
     @Autowired
     private SampleService sampleService;
 
-    @RequestMapping(value = "/sample", method = RequestMethod.GET)
-    public Mono<ResponseEntity<String>> getDistributionsStatus() throws AutoIntuitUnhandledException {
+    @RequestMapping(value = "/by-id", method = RequestMethod.GET)
+    public Mono<ResponseEntity<String>> getDistributionsStatus(String id) throws AutoIntuitUnhandledException {
        return sampleService.sampleResponse().map( text -> new ResponseEntity<>(text + " Jai", HttpStatus.OK));
-    }
-
-    @RequestMapping(value = "/sample2", method = RequestMethod.GET)
-    public Mono<ResponseEntity<String>> getDistributionsStatus2() throws AutoIntuitUnhandledException {
-        return sampleService.sampleResponse().map( text -> new ResponseEntity<>(text + " Jai", HttpStatus.OK));
     }
 
 }
