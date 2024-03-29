@@ -1,4 +1,4 @@
-package com.dreamblitz.autointuit.dto;
+package com.dreamblitz.autointuit.infra.dto;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/BodyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/util/InfraUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/Car-hyundai-venue-2022.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/entity/CarEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/repository/ICarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/repository/ICarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarComparisonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarDomainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/BodyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/dto/BodyType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/dto/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/FourWheeler.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/dto/FourWheeler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/FuelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/dto/FuelType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/dto/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/dto/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/SampleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +81,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dreamblitz.autointuit.domain.entity" />
       <recent name="com.dreamblitz.autointuit.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">

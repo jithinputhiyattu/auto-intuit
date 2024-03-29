@@ -1,0 +1,14 @@
+{
+  "brandName": "Toyota",
+  "name": "Camry",
+  "price": 300000.00,
+  "currency" : "INR",
+  "variantName": "SE",
+  "cubicCapacity": 2500,
+  "horsePower": 203.5,
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "bodyType": "Sedan",
+  "numDoors": 4,
+  "numberOfAirbags": 6
+}

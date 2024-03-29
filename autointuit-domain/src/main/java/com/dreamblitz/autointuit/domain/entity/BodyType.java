@@ -1,4 +1,4 @@
-package com.dreamblitz.autointuit.dto;
+package com.dreamblitz.autointuit.domain.entity;
 
 public enum BodyType {
 
