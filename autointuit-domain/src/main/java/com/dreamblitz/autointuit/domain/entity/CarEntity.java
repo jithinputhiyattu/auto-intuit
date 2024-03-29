@@ -31,13 +31,4 @@ public class CarEntity {
     int seatingCapacity;
     int numberOfAirbags;
     Boolean automaticClimateControl;
-
-
-    public void hideCommon(List<CarEntity> carList) {
-
-       for(CarEntity car : carList){
-           
-       }
-
-    }
 }

@@ -17,29 +17,38 @@ public class ComparisonServices {
     @Autowired
     CarDomainService carDomainService;
 
-    private static Object convertToJavaObject(String jsonString) {
-        // Create ObjectMapper
+    private Object convertToJavaObject(String jsonString) {
         ObjectMapper objectMapper = new ObjectMapper();
-
         try {
-            // Convert JSON string to Java object
             Object javaObject = objectMapper.readValue(jsonString, Object.class);
             return javaObject;
         } catch (Exception e) {
-            // Handle exception
             e.printStackTrace();
             return null;
         }
     }
 
-    public Mono<Map<String, Object>>  compareCars(String vehicleId1, String vehicleId2, Boolean hideCommon) {
+    public LinkedHashMap hideNull(LinkedHashMap object) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+        try {
+            String jsonString = objectMapper.writeValueAsString(object);
+            return objectMapper.readValue(jsonString, LinkedHashMap.class);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    public Mono<Map<String, LinkedHashMap>>  compareCars(String vehicleId1, String vehicleId2, Boolean hideCommon) {
 
        ObjectMapper mapper = new ObjectMapper();
        mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
 
        String [] array = {vehicleId1, vehicleId2};
 
-       return carDomainService.getCarById( array, hideCommon).flatMap(entity -> {
+       return carDomainService.getCarById( array).flatMap(entity -> {
             try {
                 String jsonString = mapper.writeValueAsString(entity);
                 System.out.println(jsonString);
@@ -48,10 +57,46 @@ public class ComparisonServices {
                 e.printStackTrace();
                 return Mono.error(e);
             }
-        }).collectMap((item) -> {
-           LinkedHashMap x = ((LinkedHashMap) item);
-           return x.get("id").toString();
-       } , item -> item);
+        }).collectMap((item) -> ((LinkedHashMap) item).get("id").toString(), item -> (LinkedHashMap)item)
+               .map(map ->  hideCommon ?  this.hideCommon(map) : map);
 
     }
+
+    private Map<String, LinkedHashMap>  hideCommon(Map<String, LinkedHashMap>  carMap) {
+
+        int size = carMap.size();
+        if( size >= 2 ) {
+            LinkedHashMap thisMap = carMap.values().stream().findFirst().get();
+            for(Object key:  thisMap.keySet()) {
+                hideCommon(carMap, thisMap , key, size);
+            }
+           for(Map.Entry<String, LinkedHashMap> item : carMap.entrySet()) {
+               carMap.put(item.getKey(), hideNull(item.getValue()));
+           }
+        }
+
+
+        return carMap;
+    }
+
+    private void hideCommon(Map<String, LinkedHashMap> carMap,LinkedHashMap thatMap, Object key, int size) {
+
+        int count = 0;
+        for(Map.Entry<String, LinkedHashMap> item : carMap.entrySet()) {
+            LinkedHashMap thisMap =  item.getValue();
+            if(thisMap.get(key).equals(thatMap.get(key))) {
+                count++;
+            }
+        }
+
+        if(count == size) {
+            for(Map.Entry<String, LinkedHashMap> item : carMap.entrySet()) {
+                LinkedHashMap thisMap = item.getValue();
+                thisMap.put(key, null);
+            }
+        }
+    }
+
+
+
 }

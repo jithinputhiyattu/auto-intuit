@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -23,7 +24,7 @@ public class ComparisonController {
 
     @RequestMapping(value = "/compare", method = RequestMethod.GET)
     @JsonIgnore
-    public Mono<ResponseEntity<Map<String, Object>>> compareCars(String vehicleId1, String vehicleId2, Boolean hideCommon ) throws AutoIntuitUnhandledException {
+    public Mono<ResponseEntity<Map<String, LinkedHashMap>>> compareCars(String vehicleId1, String vehicleId2, Boolean hideCommon ) throws AutoIntuitUnhandledException {
         return comparisonServices.compareCars(vehicleId1,vehicleId2,hideCommon ).map( object -> new ResponseEntity<>(object , HttpStatus.OK));
     }
 }

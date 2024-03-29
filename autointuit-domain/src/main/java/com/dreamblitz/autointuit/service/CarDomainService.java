@@ -20,16 +20,8 @@ public class CarDomainService {
      return iCarRepository.getCarById(id);
     }
 
-    public Flux<CarEntity> getCarById(String[] vehicleId, Boolean hideCommon) {
+    public Flux<CarEntity> getCarById(String[] vehicleId) {
 
-        Flux<CarEntity> carFliux =  iCarRepository.getCarsById(vehicleId);
-        if(hideCommon) {
-
-
-
-        }
-        return carFliux;
-
-
+        return iCarRepository.getCarsById(vehicleId);
     }
 }
