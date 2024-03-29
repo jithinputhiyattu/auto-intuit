@@ -61,6 +61,11 @@
 						<artifactId>surefire-junit47</artifactId>
 						<version>3.0.0</version>
 					</dependency>
+					<dependency>
+						<artifactId>commons-io</artifactId>
+						<groupId>commons-io</groupId>
+						<version>2.11.0</version>
+					</dependency>
 				</dependencies>
 				<configuration>
 					<argLine>${surefireArgLine}</argLine>
