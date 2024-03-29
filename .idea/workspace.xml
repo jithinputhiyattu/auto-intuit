@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiCretaSPetrol2022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSXDiesel2022.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiCreta2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiCretaSDiesel2022.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,58 +281,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
           <line>46</line>
           <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarDomainService.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
           <line>33</line>
           <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarRepository.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarRepository.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

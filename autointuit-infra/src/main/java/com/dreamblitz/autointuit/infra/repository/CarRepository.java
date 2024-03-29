@@ -34,8 +34,10 @@ public class CarRepository implements ICarRepository {
         String [] carIds = {
                 "carHyundaiVenueSPlusPetrol2022",
                 "carToyotaFortuner2022",
-                "carHyundaiCreta2022",
-                "carHyundaiVenueSPlusDiesel2022"
+                "carHyundaiCretaSPetrol2022",
+                "carHyundaiCretaSDiesel2022",
+                "carHyundaiVenueSPlusDiesel2022",
+                "carHyundaiVenueSXDiesel2022"
         };
 
         for(String id : carIds) {
