@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages={"com.dreamblitz.webflux17.*" })
-@ComponentScan(basePackages={"com.dreamblitz.autointuit.*" })
-//@ComponentScan({"com.dreamblitz.webflux17.adapter.controller", "com.dreamblitz.webflux17.adapter.controller.*" })
+@ComponentScan(basePackages={"com.dreamblitz.autointuit","com.dreamblitz.autointuit.*" })
 public class WebFlux17ApplicationMain {
 
 	public static void main(String[] args) {

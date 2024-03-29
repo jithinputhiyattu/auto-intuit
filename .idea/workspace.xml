@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarComparisonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-app/src/main/java/com/dreamblitz/autointuit/app/WebFlux17ApplicationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-app/src/main/java/com/dreamblitz/autointuit/app/WebFlux17ApplicationMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/repository/ICarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/repository/ICarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarComparisonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarComparisonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/repository/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/SampleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/SampleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +88,7 @@
       <module name="autointuit-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dreamblitz.webflux17.service.*" />
+          <option name="PATTERN" value="com.dreamblitz.autointuit.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

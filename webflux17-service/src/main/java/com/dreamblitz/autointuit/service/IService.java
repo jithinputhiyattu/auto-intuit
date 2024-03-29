@@ -1,4 +1,4 @@
-package com.dreamblitz.webflux17.service;
+package com.dreamblitz.autointuit.service;
 
 import com.dreamblitz.autointuit.common.exception.AutoIntuitException;
 import reactor.core.publisher.Mono;

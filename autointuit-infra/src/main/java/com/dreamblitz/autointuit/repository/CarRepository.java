@@ -1,8 +1,13 @@
 package com.dreamblitz.autointuit.repository;
 
 import com.dreamblitz.autointuit.entity.CarEntity;
+import lombok.Getter;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
-public class CarRepository implements  ICarRepository {
+@Service
+@Getter
+public class CarRepository implements ICarRepository {
 
     @Override
     public CarEntity getCarById(String id) {

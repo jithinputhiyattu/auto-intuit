@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class CarComparisonService {
 
-    @Autowired
-    ICarRepository iCarRepository;
+   @Autowired
+   private ICarRepository iCarRepository;
 
     public CarEntity getCarById(String id) {
-     return iCarRepository.getCarById(id);
+     return null;
     }
 }
