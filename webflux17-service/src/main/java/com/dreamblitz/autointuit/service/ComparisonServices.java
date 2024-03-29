@@ -30,7 +30,7 @@ public class ComparisonServices {
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
-        return carDomainService.getCarById( array).flatMap(entity -> {
+        return carDomainService.getCarById(array).flatMap(entity -> {
             try {
                 String jsonString = mapper.writeValueAsString(entity);
                 System.out.println(jsonString);
@@ -39,6 +39,11 @@ public class ComparisonServices {
                 e.printStackTrace();
                 return Mono.error(e);
             }
-        }).collectMap((item) -> ((LinkedHashMap) item).get("id").toString(), item -> (LinkedHashMap)item).map(map ->  hideCommon ?  carMapper.hideCommon(map) : map);
+        }).collectMap((item) -> ((LinkedHashMap) item).get("id").toString(), item -> (LinkedHashMap)item)
+                .map(map ->  hideCommon ?  carMapper.hideCommon(map) : map).onErrorResume(this::errorHandler);
+    }
+
+    private Mono<Map<String, LinkedHashMap>> errorHandler(Throwable throwable) {
+        return Mono.error(throwable);
     }
 }

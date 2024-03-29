@@ -41,7 +41,9 @@ public class CarRepository implements ICarRepository {
         for(String id : carIds) {
             System.out.println("Putting : " +  id);
             CarEntity entity = infraUtils.getFromJson("/dto/" + id +".json", CarEntity.class);
+
             carCollection.put(id ,entity);
+
         }
     }
 
@@ -49,26 +51,22 @@ public class CarRepository implements ICarRepository {
     public Mono<CarEntity> getCarById(String id) {
 
         System.out.println(id);
-
         CarEntity entity = carCollection.get(id);
         if(entity != null)  {
-
             return Mono.just(entity);
         }
-
-        System.out.println(carCollection.size());
         return Mono.empty();
     }
 
     @Override
     public Flux<CarEntity> getCarsById(String[] vehicleId) {
 
-
         List<CarEntity> list = new ArrayList<>();
-
         for(String id : vehicleId) {
             CarEntity entity = carCollection.get(id);
-            list.add(entity);
+            if(entity!=null) {
+                list.add(entity);
+            }
         }
         return Flux.fromIterable(list);
     }
