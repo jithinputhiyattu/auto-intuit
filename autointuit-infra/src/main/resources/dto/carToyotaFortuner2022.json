@@ -1,0 +1,16 @@
+{
+  "brandName": "Toyota",
+  "name": "Fortuner",
+  "id": "carToyotaFortuner2022",
+  "price": 300000.00,
+  "variantName": "SE",
+  "cubicCapacity": 2500,
+  "horsePower": 203.5,
+  "fuelType": "PETROL",
+  "transmissionType": "Automatic",
+  "bodyType": "OPEN",
+  "numDoors": 4,
+  "numberOfAirbags": 8,
+  "seatingCapacity" : 7,
+  "automaticClimateControl" : false
+}
