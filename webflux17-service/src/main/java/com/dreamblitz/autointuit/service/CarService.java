@@ -1,7 +1,7 @@
 package com.dreamblitz.autointuit.service;
 
 import com.dreamblitz.autointuit.common.exception.*;
-import com.dreamblitz.autointuit.domain.entity.CarEntity;
+import com.dreamblitz.autointuit.domain.entity.CarVariant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ public class CarService extends IService {
     @Autowired
     CarDomainService carDomainService;
 
-    public Mono<CarEntity> getCarById(String id) throws AutoIntuitUnhandledException {
+    public Mono<CarVariant> getCarById(String id) throws AutoIntuitUnhandledException {
      try {
 
         return carDomainService.getCarById(id);

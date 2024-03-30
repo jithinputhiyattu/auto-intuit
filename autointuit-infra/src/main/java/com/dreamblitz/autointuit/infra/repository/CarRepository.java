@@ -1,6 +1,6 @@
 package com.dreamblitz.autointuit.infra.repository;
 
-import com.dreamblitz.autointuit.domain.entity.CarEntity;
+import com.dreamblitz.autointuit.domain.entity.CarVariant;
 import com.dreamblitz.autointuit.infra.util.InfraUtils;
 import com.dreamblitz.autointuit.repository.ICarRepository;
 import jakarta.annotation.PostConstruct;
@@ -19,7 +19,7 @@ import java.util.Map;
 @Getter
 public class CarRepository implements ICarRepository {
 
-    Map<String, CarEntity> carCollection;
+    Map<String, CarVariant> carCollection;
 
     @Autowired
     InfraUtils infraUtils;
@@ -42,7 +42,7 @@ public class CarRepository implements ICarRepository {
 
         for(String id : carIds) {
             System.out.println("Putting : " +  id);
-            CarEntity entity = infraUtils.getFromJson("/dto/" + id +".json", CarEntity.class);
+            CarVariant entity = infraUtils.getFromJson("/dto/" + id +".json", CarVariant.class);
 
             carCollection.put(id ,entity);
 
@@ -50,10 +50,10 @@ public class CarRepository implements ICarRepository {
     }
 
     @Override
-    public Mono<CarEntity> getCarById(String id) {
+    public Mono<CarVariant> getCarById(String id) {
 
         System.out.println(id);
-        CarEntity entity = carCollection.get(id);
+        CarVariant entity = carCollection.get(id);
         if(entity != null)  {
             return Mono.just(entity);
         }
@@ -61,11 +61,11 @@ public class CarRepository implements ICarRepository {
     }
 
     @Override
-    public Flux<CarEntity> getCarsById(String[] vehicleId) {
+    public Flux<CarVariant> getCarsById(String[] vehicleId) {
 
-        List<CarEntity> list = new ArrayList<>();
+        List<CarVariant> list = new ArrayList<>();
         for(String id : vehicleId) {
-            CarEntity entity = carCollection.get(id);
+            CarVariant entity = carCollection.get(id);
             if(entity!=null) {
                 list.add(entity);
             }

@@ -2,9 +2,8 @@ package com.dreamblitz.autointuit.adapter.controller;
 
 
 import com.dreamblitz.autointuit.common.exception.AutoIntuitUnhandledException;
-import com.dreamblitz.autointuit.domain.entity.CarEntity;
+import com.dreamblitz.autointuit.domain.entity.CarVariant;
 import com.dreamblitz.autointuit.service.CarService;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +21,7 @@ public class CarController {
 
 
     @RequestMapping(value = "/by-id", method = RequestMethod.GET)
-    public Mono<ResponseEntity<CarEntity>> getDistributionsStatus(String id) throws AutoIntuitUnhandledException {
+    public Mono<ResponseEntity<CarVariant>> getDistributionsStatus(String id) throws AutoIntuitUnhandledException {
        return carService.getCarById(id).map( text -> new ResponseEntity<>(text, HttpStatus.OK));
     }
 

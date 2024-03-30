@@ -1,6 +1,5 @@
 package com.dreamblitz.autointuit.domain.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -8,19 +7,18 @@ import lombok.ToString;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
 @Getter
 @Setter
 @ToString
 @Component
 @NoArgsConstructor
 @Scope("prototype")
-public class CarEntity {
+public class CarVariant {
     String brandName;
     String name;
     String id;
-    Double price;
+    Double exShowroomPrice;
+    Double insurance;
     String variantName;
     Float cubicCapacity;
     Float horsePower;

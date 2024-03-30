@@ -9,7 +9,7 @@ public abstract class Vehicle {
 
   String brandName;
   String name;
-  Double price;
+  Double exShowroomPrice;
   String variantName;
   Float cubicCapacity;
   Float horsePower;
