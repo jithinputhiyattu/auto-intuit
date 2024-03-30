@@ -1,0 +1,14 @@
+{
+  "brandName": "Hyundai",
+  "name": "Venue",
+  "id": "hyundaiVenue2022",
+  "basePrize": 959999.00,
+  "maxPrize" : 1459999.00,
+  "body":  "SUV",
+  "seatingCapacity" : 5,
+  "variants" : [
+    "carHyundaiVenueSPlusDiesel2022",
+    "carHyundaiVenueSPlusPetrol2022",
+    "carHyundaiVenueSXDiesel2022"
+  ]
+}

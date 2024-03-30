@@ -15,10 +15,7 @@ public class CarService extends IService {
 
     public Mono<CarVariant> getCarById(String id) throws AutoIntuitUnhandledException {
      try {
-
-        return carDomainService.getCarById(id);
-
-
+        return carDomainService.getCarVariantById(id);
      } catch (Exception exception) {
        throw  AutoIntuitUnhandledException.getInstance(exception);
      }

@@ -2,6 +2,7 @@
   "brandName": "Hyundai",
   "name": "Creta",
   "id": "carHyundaiCretaSPetrol2022",
+  "carModelId": "hyundaiCreta2022",
   "exShowroomPrice": 300000.00,
   "variantName": "SE",
   "cubicCapacity": 1500,
@@ -13,5 +14,18 @@
   "numDoors": 4,
   "numberOfAirbags": 6,
   "seatingCapacity" : 5,
-  "automaticClimateControl" : false
+  "automaticClimateControl" : false,
+  "dimensions" : {
+    "height":1617,
+    "width": 1770,
+    "length": 4095,
+    "wheelBase": 2500,
+    "bootSpace": 350
+  },
+  "height":1617,
+  "width": 1770,
+  "length": 4095,
+  "wheelBase": 2500,
+  "bootSpace": 350
+
 }

@@ -1,0 +1,15 @@
+{
+  "brandName": "Tata",
+  "name": "Nexon",
+  "id": "tataNexon2022",
+  "basePrize": 1059999.00,
+  "maxPrize" : 1659999.00,
+  "body":  "SUV",
+  "seatingCapacity" : 5,
+  "variants" : [
+    "tataNexonEDiesel2022",
+    "tataNexonEPetrol2022",
+    "tataNexonSDiesel2022",
+    "tataNexonSPetrol2022"
+  ]
+}

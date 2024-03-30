@@ -1,5 +1,6 @@
 package com.dreamblitz.autointuit.infra.util;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Component;
 import org.apache.commons.io.IOUtils;
@@ -9,6 +10,7 @@ public class InfraUtils {
 
     public <T> T getFromJson(String jsonFileName, Class<T> valueType) {
         ObjectMapper jackson = new ObjectMapper();
+        jackson.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         try {
             String json = IOUtils.toString(InfraUtils.class.getResource(jsonFileName), "UTF-8");
             return jackson.readValue(json, valueType);

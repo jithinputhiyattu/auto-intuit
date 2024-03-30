@@ -2,6 +2,7 @@
   "brandName": "Hyundai",
   "name": "Venue",
   "id": "carHyundaiVenueSPlusPetrol2022",
+  "carModelId": "hyundaiVenue2022",
   "exShowroomPrice": 850000.00,
   "variantName": "SPlus",
   "cubicCapacity": 2500,
@@ -13,5 +14,17 @@
   "numDoors": 4,
   "numberOfAirbags": 6,
   "seatingCapacity" : 5,
-  "automaticClimateControl" : false
+  "automaticClimateControl" : false,
+  "dimensions" : {
+    "height":1617,
+    "width": 1770,
+    "length": 3995,
+    "wheelBase": 2500,
+    "bootSpace": 350
+  },
+  "height":1617,
+  "width": 1770,
+  "length": 3995,
+  "wheelBase": 2500,
+  "bootSpace": 350
 }

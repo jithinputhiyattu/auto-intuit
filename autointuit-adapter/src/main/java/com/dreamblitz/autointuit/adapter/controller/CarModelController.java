@@ -1,9 +1,8 @@
 package com.dreamblitz.autointuit.adapter.controller;
 
-
 import com.dreamblitz.autointuit.common.exception.AutoIntuitUnhandledException;
-import com.dreamblitz.autointuit.domain.entity.CarVariant;
-import com.dreamblitz.autointuit.service.CarService;
+import com.dreamblitz.autointuit.domain.entity.CarModelEntity;
+import com.dreamblitz.autointuit.service.CarModelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,16 +12,14 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping(path = "/auto-car")
-public class CarController {
+@RequestMapping(path = "/api/car/model")
+public class CarModelController {
 
     @Autowired
-    private CarService carService;
+    CarModelService carModelService;
 
-
-    @RequestMapping(value = "/by-id", method = RequestMethod.GET)
-    public Mono<ResponseEntity<CarVariant>> getDistributionsStatus(String id) throws AutoIntuitUnhandledException {
-       return carService.getCarById(id).map( text -> new ResponseEntity<>(text, HttpStatus.OK));
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public Mono<ResponseEntity<CarModelEntity>> compareCars(String vehicleId1 ) throws AutoIntuitUnhandledException {
+        return carModelService.catCarModelById(vehicleId1 ).map( object -> new ResponseEntity<>(object , HttpStatus.OK));
     }
-
 }

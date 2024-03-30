@@ -13,12 +13,12 @@ public class CarDomainService {
    @Autowired
    private ICarRepository iCarRepository;
 
-    public Mono<CarVariant> getCarById(String id) {
+    public Mono<CarVariant> getCarVariantById(String id) {
      return iCarRepository.getCarById(id);
     }
 
-    public Flux<CarVariant> getCarById(String[] vehicleId) {
-
+    public Flux<CarVariant> getCarVariantById(String[] vehicleId) {
         return iCarRepository.getCarsById(vehicleId);
     }
+
 }

@@ -1,0 +1,15 @@
+{
+  "brandName": "Audi",
+  "name": "A4",
+  "id": "audiA42024",
+  "basePrize": 4059999.00,
+  "maxPrize" : 5759999.00,
+  "body":  "SUV",
+  "seatingCapacity" : 5,
+  "variants" : [
+    "audiA4EDiesel2024",
+    "audiA4EPetrol2024",
+    "audiA4SDiesel2024",
+    "audiA4SPetrol2024"
+  ]
+}

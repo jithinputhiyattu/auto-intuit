@@ -5,15 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/CarModelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SuggestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarModelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/repository/ICarModelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarModelDomainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/SuggestionDomainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarModelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carModel/audiA42024.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carModel/hyundaiCreta2022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carModel/hyundaiVenue2022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carModel/tataNexon2022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carModel/tataPunch2022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carHyundaiCretaEPetrol2022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carHyundaiCretaSDiesel2022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/CarModelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/SuggestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/dto/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/dto/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiCretaSDiesel2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiCretaSDiesel2022.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiCretaSPetrol2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiCretaSPetrol2022.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSPlusDiesel2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSPlusDiesel2022.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSPlusPetrol2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSPlusPetrol2022.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSXDiesel2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSXDiesel2022.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carToyotaFortuner2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carToyotaFortuner2022.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/ComparisonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/VariantComparisonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarVariant.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarVariant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarDomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarDomainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarVariantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/util/InfraUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/util/InfraUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiCretaSDiesel2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carHyundaiCretaEDiesel2022.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiCretaSPetrol2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carHyundaiCretaSPetrol2022.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSPlusDiesel2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carHyundaiVenueSPlusDiesel2022.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSPlusPetrol2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carHyundaiVenueSPlusPetrol2022.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carHyundaiVenueSXDiesel2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carHyundaiVenueSXDiesel2022.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carToyotaFortuner2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carToyotaFortuner2022.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +85,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carModel" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,10 +97,14 @@
       <recent name="com.dreamblitz.autointuit.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carModel" />
+      <recent name="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant" />
       <recent name="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto" />
       <recent name="$PROJECT_DIR$/autointuit-domain" />
       <recent name="$PROJECT_DIR$/autointuit-infra" />
-      <recent name="$PROJECT_DIR$/webflux17-adapter/src/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -265,31 +294,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/util/InfraUtils.java</url>
-          <line>18</line>
+          <line>20</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/util/InfraUtils.java</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/util/InfraUtils.java</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/util/InfraUtils.java</url>
-          <line>16</line>
+          <line>18</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
+          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java</url>
           <line>33</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/ComparisonServices.java</url>
+          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java</url>
           <line>46</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>

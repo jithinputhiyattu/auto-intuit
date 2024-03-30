@@ -2,16 +2,29 @@
   "brandName": "Hyundai",
   "name": "Venue",
   "id": "carHyundaiVenueSXDiesel2022",
+  "carModelId": "hyundaiVenue2022",
   "exShowroomPrice": 979990.00,
   "variantName": "SX",
   "cubicCapacity": 1800,
   "horsePower": 99.5,
   "fuelType": "DIESEL",
-  "transmissionType": "Manual",
+  "transmissionType": "Automatic",
   "bodyType": "OPEN",
   "insurance" : 21500.00,
   "numDoors": 4,
   "numberOfAirbags": 6,
   "seatingCapacity" : 5,
-  "automaticClimateControl" : false
+  "automaticClimateControl" : false,
+  "dimensions" : {
+    "height":1617,
+    "width": 1770,
+    "length": 3995,
+    "wheelBase": 2500,
+    "bootSpace": 350
+  },
+  "height":1617,
+  "width": 1770,
+  "length": 3995,
+  "wheelBase": 2500,
+  "bootSpace": 350
 }

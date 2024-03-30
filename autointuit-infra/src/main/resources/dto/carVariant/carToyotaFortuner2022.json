@@ -2,6 +2,7 @@
   "brandName": "Toyota",
   "name": "Fortuner",
   "id": "carToyotaFortuner2022",
+  "carModelId": "toyotaFortuner2022",
   "exShowroomPrice": 3500000.00,
   "variantName": "SE",
   "cubicCapacity": 2500,
@@ -13,5 +14,17 @@
   "numDoors": 4,
   "numberOfAirbags": 8,
   "seatingCapacity" : 7,
-  "automaticClimateControl" : false
+  "automaticClimateControl" : false,
+  "dimensions" : {
+    "height":1617,
+    "width": 1770,
+    "length": 3995,
+    "wheelBase": 2500,
+    "bootSpace": 350
+  },
+  "height":1617,
+  "width": 1770,
+  "length": 3995,
+  "wheelBase": 2500,
+  "bootSpace": 350
 }

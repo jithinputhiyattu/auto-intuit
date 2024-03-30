@@ -1,0 +1,15 @@
+{
+  "brandName": "Hyundai",
+  "name": "Creta",
+  "id": "hyundaiCreta2022",
+  "basePrize": 1159999.00,
+  "maxPrize" : 1759999.00,
+  "body":  "SUV",
+  "seatingCapacity" : 5,
+  "variants" : [
+    "carHyundaiCretaEDiesel2022",
+    "carHyundaiCretaEPetrol2022",
+    "carHyundaiCretaSDiesel2022",
+    "carHyundaiCretaSPetrol2022"
+  ]
+}

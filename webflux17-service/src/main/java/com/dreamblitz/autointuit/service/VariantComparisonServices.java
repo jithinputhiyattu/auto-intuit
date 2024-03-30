@@ -1,5 +1,7 @@
 package com.dreamblitz.autointuit.service;
 
+import com.dreamblitz.autointuit.common.exception.AutoIntuitUnhandledException;
+import com.dreamblitz.autointuit.domain.entity.CarVariant;
 import com.dreamblitz.autointuit.service.mapper.CarMapper;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -11,7 +13,7 @@ import reactor.core.publisher.Mono;
 import java.util.*;
 
 @Service
-public class ComparisonServices {
+public class VariantComparisonServices {
 
     @Autowired
     CarDomainService carDomainService;
@@ -19,18 +21,11 @@ public class ComparisonServices {
     @Autowired
     CarMapper carMapper;
 
-
-    public Mono<Map<String, LinkedHashMap>> compareCars(String vehicleId1, String vehicleId2, Boolean hideCommon) {
-
-       String [] array = {vehicleId1, vehicleId2};
-       return this.compareCars(array, hideCommon);
-    }
-
     public Mono<Map<String, LinkedHashMap>> compareCars(String[] array, Boolean hideCommon) {
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
-        return carDomainService.getCarById(array).flatMap(entity -> {
+        return carDomainService.getCarVariantById(array).flatMap(entity -> {
             try {
                 String jsonString = mapper.writeValueAsString(entity);
                 System.out.println(jsonString);
@@ -41,6 +36,14 @@ public class ComparisonServices {
             }
         }).collectMap((item) -> ((LinkedHashMap) item).get("id").toString(), item -> (LinkedHashMap)item)
                 .map(map ->  hideCommon ?  carMapper.hideCommon(map) : map).onErrorResume(this::errorHandler);
+    }
+
+    public Mono<CarVariant> getCarById(String id) throws AutoIntuitUnhandledException {
+        try {
+            return carDomainService.getCarVariantById(id);
+        } catch (Exception exception) {
+            throw  AutoIntuitUnhandledException.getInstance(exception);
+        }
     }
 
     private Mono<Map<String, LinkedHashMap>> errorHandler(Throwable throwable) {

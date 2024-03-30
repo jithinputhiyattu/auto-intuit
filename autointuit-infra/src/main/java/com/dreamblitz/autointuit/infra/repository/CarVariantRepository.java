@@ -17,14 +17,14 @@ import java.util.Map;
 
 @Service
 @Getter
-public class CarRepository implements ICarRepository {
+public class CarVariantRepository implements ICarRepository {
 
     Map<String, CarVariant> carCollection;
 
     @Autowired
     InfraUtils infraUtils;
 
-    public CarRepository() {
+    public CarVariantRepository() {
       carCollection = new HashMap<>();
     }
 
@@ -42,7 +42,7 @@ public class CarRepository implements ICarRepository {
 
         for(String id : carIds) {
             System.out.println("Putting : " +  id);
-            CarVariant entity = infraUtils.getFromJson("/dto/" + id +".json", CarVariant.class);
+            CarVariant entity = infraUtils.getFromJson("/dto/carVariant/" + id +".json", CarVariant.class);
 
             carCollection.put(id ,entity);
 
