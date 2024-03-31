@@ -51,6 +51,7 @@ public class CarVariantRepository implements ICarRepository {
 
     @Override
     public Mono<CarVariant> getCarById(String id) {
+        this.init();
 
         System.out.println(id);
         CarVariant entity = carCollection.get(id);
@@ -62,7 +63,7 @@ public class CarVariantRepository implements ICarRepository {
 
     @Override
     public Flux<CarVariant> getCarsById(String[] vehicleId) {
-
+        this.init();
         List<CarVariant> list = new ArrayList<>();
         for(String id : vehicleId) {
             CarVariant entity = carCollection.get(id);

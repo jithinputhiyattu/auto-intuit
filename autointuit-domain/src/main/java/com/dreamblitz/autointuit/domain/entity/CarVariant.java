@@ -16,7 +16,7 @@ import java.util.List;
 @Component
 @NoArgsConstructor
 @Scope("prototype")
-public class CarVariant {
+public class CarVariant implements Hideable {
     String brandName;
     String name;
     String id;
@@ -24,8 +24,6 @@ public class CarVariant {
     Double exShowroomPrice;
     Double insurance;
     String variantName;
-    Float cubicCapacity;
-    Float horsePower;
     FuelType fuelType;
     String transmissionType;
     BodyType bodyType;
@@ -33,11 +31,8 @@ public class CarVariant {
     Integer seatingCapacity;
     Integer numberOfAirbags;
     Boolean automaticClimateControl;
-    // Dimensions dimensions;
-    Integer height;
-    Integer width;
-    Integer length;
-    Integer wheelBase;
-    Integer bootSpace;
+    Dimensions dimensions;
+    Engine engine;
+
 
 }

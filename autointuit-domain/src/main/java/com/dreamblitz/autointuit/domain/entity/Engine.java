@@ -13,10 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 @NoArgsConstructor
 @Scope("prototype")
-public class Dimensions implements Hideable {
-    Integer height;
-    Integer width;
-    Integer length;
-    Integer wheelBase;
-    Integer bootSpace;
+public class Engine {
+    Float cubicCapacity;
+    Float horsePower;
 }

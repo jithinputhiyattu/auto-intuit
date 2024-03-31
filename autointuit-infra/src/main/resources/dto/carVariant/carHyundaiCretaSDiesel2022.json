@@ -5,8 +5,10 @@
   "carModelId": "hyundaiCreta2022",
   "exShowroomPrice": 300000.00,
   "variantName": "SE",
-  "cubicCapacity": 2500,
-  "horsePower": 203.5,
+  "engine" : {
+    "cubicCapacity": 2500,
+    "horsePower": 203.5
+  },
   "fuelType": "DIESEL",
   "transmissionType": "Automatic",
   "bodyType": "OPEN",

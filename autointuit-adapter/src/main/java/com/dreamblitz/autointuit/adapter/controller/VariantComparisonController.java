@@ -23,7 +23,7 @@ public class VariantComparisonController {
 
     @RequestMapping(value = "/compare", method = RequestMethod.GET)
     public Mono<ResponseEntity<Map<String, LinkedHashMap>>> compareNCars(String[] vehicleId, Boolean hideCommon ) throws AutoIntuitUnhandledException {
-        return comparisonServices.compareCars(vehicleId,hideCommon ).map( object -> new ResponseEntity<>(object , HttpStatus.OK));
+        return comparisonServices.compare3Cars(vehicleId,hideCommon ).map( object -> new ResponseEntity<>(object , HttpStatus.OK));
     }
 
     @RequestMapping(value = "/", method = RequestMethod.GET)

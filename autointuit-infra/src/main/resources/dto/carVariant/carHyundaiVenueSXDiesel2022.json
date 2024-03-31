@@ -5,8 +5,10 @@
   "carModelId": "hyundaiVenue2022",
   "exShowroomPrice": 979990.00,
   "variantName": "SX",
-  "cubicCapacity": 1800,
-  "horsePower": 99.5,
+  "engine" : {
+    "cubicCapacity": 1800,
+    "horsePower": 100.5
+  },
   "fuelType": "DIESEL",
   "transmissionType": "Automatic",
   "bodyType": "OPEN",

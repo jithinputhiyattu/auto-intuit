@@ -5,8 +5,10 @@
   "carModelId": "hyundaiVenue2022",
   "exShowroomPrice": 850000.00,
   "variantName": "SPlus",
-  "cubicCapacity": 2500,
-  "horsePower": 203.5,
+  "engine" : {
+    "cubicCapacity": 1500,
+    "horsePower": 89.5
+  },
   "fuelType": "PETROL",
   "transmissionType": "Manual",
   "bodyType": "OPEN",
@@ -21,10 +23,5 @@
     "length": 3995,
     "wheelBase": 2500,
     "bootSpace": 350
-  },
-  "height":1617,
-  "width": 1770,
-  "length": 3995,
-  "wheelBase": 2500,
-  "bootSpace": 350
+  }
 }

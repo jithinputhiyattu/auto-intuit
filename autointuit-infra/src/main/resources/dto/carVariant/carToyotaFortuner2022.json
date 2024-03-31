@@ -5,8 +5,10 @@
   "carModelId": "toyotaFortuner2022",
   "exShowroomPrice": 3500000.00,
   "variantName": "SE",
-  "cubicCapacity": 2500,
-  "horsePower": 203.5,
+  "engine" : {
+    "cubicCapacity": 1500,
+    "horsePower": 89.5
+  },
   "fuelType": "PETROL",
   "transmissionType": "Automatic",
   "bodyType": "OPEN",

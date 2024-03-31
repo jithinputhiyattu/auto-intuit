@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 public class CarService extends IService {
 
     @Autowired
-    CarDomainService carDomainService;
+    CarVariantDomainService carDomainService;
 
     public Mono<CarVariant> getCarById(String id) throws AutoIntuitUnhandledException {
      try {
