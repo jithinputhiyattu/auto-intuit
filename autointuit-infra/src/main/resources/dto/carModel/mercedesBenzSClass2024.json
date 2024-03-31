@@ -1,0 +1,13 @@
+{
+  "brandName": "MercedesBenz",
+  "name": "SClass",
+  "id": "mercedesBenzSClass2024",
+  "basePrize": 9059999.00,
+  "maxPrize" : 14759999.00,
+  "body":  "SUV",
+  "seatingCapacity" : 5,
+  "variants" : [
+    "mercedesBenzSClass350D2024",
+    "mercedesBenzSClass450D2024"
+  ]
+}

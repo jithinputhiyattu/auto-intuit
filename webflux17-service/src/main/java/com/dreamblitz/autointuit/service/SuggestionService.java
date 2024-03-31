@@ -1,5 +1,6 @@
 package com.dreamblitz.autointuit.service;
 
+import com.dreamblitz.autointuit.domain.entity.CarMetadataEntity;
 import com.dreamblitz.autointuit.domain.entity.CarModelEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +15,7 @@ public class SuggestionService {
     @Autowired
     SuggestionDomainService suggestionDomainService;
 
-    public Mono<List<CarModelEntity>> suggestCar(String vehicleId) {
+    public Mono<List<CarMetadataEntity>> suggestCar(String vehicleId) {
         return suggestionDomainService.getSimilarCars(vehicleId,10);
     }
 }

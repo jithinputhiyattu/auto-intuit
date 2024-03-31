@@ -36,18 +36,6 @@ public class CarModelEntity implements Comparable {
         variants = new ArrayList<>();
     }
 
-    public CarModelEntity createScore(CarModelEntity carModel) {
-        Double basePrizeDifferance = Math.abs(this.basePrize - carModel.basePrize) +1;
-        Double maxPrizeDifferance = Math.abs(this.maxPrize - carModel.maxPrize) + 1;
-        this.score = 10000000 / basePrizeDifferance  + 10000000/maxPrizeDifferance;
-        if(this.body.equalsIgnoreCase(carModel.body)) {
-            this.score += 100; // This should be in Cloud configuration
-        }
-        if(this.seatingCapacity == carModel.seatingCapacity) {
-            this.score += 100; // This should be in Cloud configuration
-        }
-        return this;
-    }
 
     @Override
     public int compareTo(Object object) {

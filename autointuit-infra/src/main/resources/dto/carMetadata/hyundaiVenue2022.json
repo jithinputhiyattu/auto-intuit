@@ -1,0 +1,8 @@
+{
+  "displayName": "Hyundai Venue 2022",
+  "carId": "hyundaiVenue2022",
+  "popularity" : 150,
+  "model" : 2022,
+  "segment": "MiddleClass",
+  "body" : "SUV"
+}

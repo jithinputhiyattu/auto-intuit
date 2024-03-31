@@ -1,8 +1,9 @@
 package com.dreamblitz.autointuit.infra.repository;
 
+import com.dreamblitz.autointuit.domain.entity.CarMetadataEntity;
 import com.dreamblitz.autointuit.domain.entity.CarModelEntity;
 import com.dreamblitz.autointuit.infra.util.InfraUtils;
-import com.dreamblitz.autointuit.repository.ICarModelRepository;
+import com.dreamblitz.autointuit.repository.ICarMetadataRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,15 +17,16 @@ import java.util.stream.Collectors;
 
 @Service
 @Getter
-public class CarModelRepository implements ICarModelRepository {
+public class CarMetadataRepository implements ICarMetadataRepository {
 
-    Map<String, CarModelEntity> carModelCollection;
+
+    Map<String, CarMetadataEntity> carMetaCollection;
 
     @Autowired
     InfraUtils infraUtils;
 
-    public CarModelRepository() {
-        carModelCollection = new HashMap<>();
+    public CarMetadataRepository() {
+        carMetaCollection = new HashMap<>();
     }
 
     @PostConstruct
@@ -34,22 +36,21 @@ public class CarModelRepository implements ICarModelRepository {
                 "hyundaiVenue2022",
                 "hyundaiCreta2022",
                 "tataNexon2022",
-                "tataPunch2022",
-                "audiA42024",
-                "mercedesBenzSClass2024"
+                "tataPunch2022"
         };
 
         for(String id : carIds) {
             System.out.println("Adding : " +  id);
-            CarModelEntity entity = infraUtils.getFromJson("/dto/carModel/" + id +".json", CarModelEntity.class);
-            carModelCollection.put(id ,entity);
+            CarMetadataEntity entity = infraUtils.getFromJson("/dto/carMetadata/" + id +".json", CarMetadataEntity.class);
+            carMetaCollection.put(id ,entity);
 
         }
     }
+
     @Override
-    public Mono<CarModelEntity> getCarById(String id) {
+    public Mono<CarMetadataEntity> getCarById(String id) {
         System.out.println(id);
-        CarModelEntity entity = carModelCollection.get(id);
+        CarMetadataEntity entity = carMetaCollection.get(id);
         if(entity != null)  {
             return Mono.just(entity);
         }
@@ -57,7 +58,7 @@ public class CarModelRepository implements ICarModelRepository {
     }
 
     @Override
-    public Flux<CarModelEntity> findAll() {
-      return Flux.fromIterable(carModelCollection.values().stream().collect(Collectors.toList()));
+    public Flux<CarMetadataEntity> findAll() {
+        return Flux.fromIterable(carMetaCollection.values().stream().collect(Collectors.toList()));
     }
 }

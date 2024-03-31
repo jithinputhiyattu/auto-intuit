@@ -1,6 +1,7 @@
 package com.dreamblitz.autointuit.adapter.controller;
 
 import com.dreamblitz.autointuit.common.exception.AutoIntuitUnhandledException;
+import com.dreamblitz.autointuit.domain.entity.CarMetadataEntity;
 import com.dreamblitz.autointuit.domain.entity.CarModelEntity;
 import com.dreamblitz.autointuit.service.SuggestionService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,7 @@ public class SuggestionController {
     SuggestionService suggestionService;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public Mono<ResponseEntity<List<CarModelEntity>>> suggestCar(String vehicleId ) throws AutoIntuitUnhandledException {
+    public Mono<ResponseEntity<List<CarMetadataEntity>>> suggestCar(String vehicleId ) throws AutoIntuitUnhandledException {
         return suggestionService.suggestCar(vehicleId ).map( object -> new ResponseEntity<>(object , HttpStatus.OK));
     }
 }
