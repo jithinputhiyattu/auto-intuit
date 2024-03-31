@@ -2,5 +2,4 @@ com/dreamblitz/autointuit/service/IService.class
 com/dreamblitz/autointuit/service/CarModelService.class
 com/dreamblitz/autointuit/service/mapper/CarMapper.class
 com/dreamblitz/autointuit/service/VariantComparisonServices.class
-com/dreamblitz/autointuit/service/CarService.class
 com/dreamblitz/autointuit/service/SuggestionService.class

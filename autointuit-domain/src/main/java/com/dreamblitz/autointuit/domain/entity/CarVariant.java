@@ -33,6 +33,4 @@ public class CarVariant implements Hideable {
     Boolean automaticClimateControl;
     Dimensions dimensions;
     Engine engine;
-
-
 }

@@ -6,27 +6,7 @@ import java.util.List;
 
 public interface Hideable {
 
-    default void hideCommon(Object d1, Object d2) {
-        Class<?> cls = d1.getClass();
-        Field[] fields = cls.getDeclaredFields();
-        for (Field field : fields) {
-            try {
-                if(field.get(this) instanceof Hideable) {
-                    Hideable h = (Hideable) field.get(this);
-                    h.hideCommon(field.get(d1), field.get(d2));
-                }
-                if(field.get(this).equals( field.get(d1)) && field.get(d1).equals(field.get(d2))) {
-                    field.set(this, null);
-                    field.set(d1, null);
-                    field.set(d2, null);
-                }
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    default List<Object> getSubList(Object[] list, Field field) {
+    private List<Object> getSubList(Object[] list, Field field) {
         List<Object> subList  = new ArrayList<>();
         try {
             for(Object obj :list) {
@@ -40,7 +20,7 @@ public interface Hideable {
         return subList;
     }
 
-    default boolean isValid (Object [] list, Field field) throws IllegalAccessException {
+    private boolean isValid (Object [] list, Field field) throws IllegalAccessException {
         for(Object obj :list) {
             if(field.get(obj) == null ) {
                 return false;
@@ -49,7 +29,7 @@ public interface Hideable {
         return true;
     }
 
-    default int getEqualCount(Object [] list, Field field) throws IllegalAccessException {
+    private int getEqualCount(Object [] list, Field field) throws IllegalAccessException {
         int count =1;
         for(int i = 1; i <list.length;i++){
             if(field.get(list[0]).equals( field.get(list[i]))) {

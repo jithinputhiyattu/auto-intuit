@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/autointuit/common/exception/CarLimitExceededException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/CarModelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/CarModelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SuggestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SuggestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/VariantComparisonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/VariantComparisonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarModelEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarModelEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarVariant.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/CarVariant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/Hideable.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/Hideable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarVariantDomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarVariantDomainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/autointuit/common/exception/AutoIntuitErrorCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/autointuit/common/exception/AutoIntuitErrorCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/autointuit/common/exception/AutoIntuitInvalidInputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/autointuit/common/exception/NoSuchCarException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/autointuit/common/exception/AutoIntuitUnhandledException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/CarModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/CarModelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/SuggestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/SuggestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,18 +236,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionHandler.java</url>
-          <line>21</line>
+          <line>19</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionHandler.java</url>
-          <line>20</line>
+          <line>18</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionHandler.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/utils/CreateMono.java</url>
@@ -282,23 +294,61 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java</url>
-          <line>33</line>
+          <line>36</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java</url>
-          <line>63</line>
+          <line>70</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/Hideable.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="68" />
+          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/domain/entity/Hideable.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="84" />
+          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarVariantDomainService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/autointuit-domain/src/main/java/com/dreamblitz/autointuit/service/CarVariantDomainService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java</url>
+          <line>62</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/autointuit/service/VariantComparisonServices.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/autointuit/common/exception/NoSuchCarException.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/autointuit/common/exception/NoSuchCarException.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/autointuit/common/exception/NoSuchCarException.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

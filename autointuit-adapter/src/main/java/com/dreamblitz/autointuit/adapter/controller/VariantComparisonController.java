@@ -1,9 +1,8 @@
 package com.dreamblitz.autointuit.adapter.controller;
 
 import com.dreamblitz.autointuit.domain.entity.CarVariant;
-import com.dreamblitz.autointuit.service.CarService;
 import com.dreamblitz.autointuit.service.VariantComparisonServices;
-import com.dreamblitz.autointuit.common.exception.AutoIntuitUnhandledException;
+import com.dreamblitz.autointuit.common.exception.CarLimitExceededException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,12 +21,12 @@ public class VariantComparisonController {
     private VariantComparisonServices comparisonServices;
 
     @RequestMapping(value = "/compare", method = RequestMethod.GET)
-    public Mono<ResponseEntity<Map<String, LinkedHashMap>>> compareNCars(String[] vehicleId, Boolean hideCommon ) throws AutoIntuitUnhandledException {
+    public Mono<ResponseEntity<Map<String, LinkedHashMap>>> compareNCars(String[] vehicleId, Boolean hideCommon ) throws CarLimitExceededException {
         return comparisonServices.compare3Cars(vehicleId,hideCommon ).map( object -> new ResponseEntity<>(object , HttpStatus.OK));
     }
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public Mono<ResponseEntity<CarVariant>>  getVariant(String vehicleId ) throws AutoIntuitUnhandledException {
+    public Mono<ResponseEntity<CarVariant>>  getVariant(String vehicleId ) throws CarLimitExceededException {
         return comparisonServices.getCarById(vehicleId).map( text -> new ResponseEntity<>(text, HttpStatus.OK));
     }
 

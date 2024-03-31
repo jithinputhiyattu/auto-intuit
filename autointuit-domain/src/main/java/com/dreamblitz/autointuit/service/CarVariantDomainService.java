@@ -22,18 +22,10 @@ public class CarVariantDomainService {
 
     public Flux<CarVariant> getCar3VariantById(String[] vehicleId,  Boolean hideCommon) {
         return iCarRepository.getCarsById(vehicleId).collectList().flatMap(list -> {
-            if(hideCommon) {
-
+            if(hideCommon && list.size() > 1) {
                 list.get(0).hideCommonFromList(list.toArray());
-                /*
-                if(list.size()==3) {
-                    list.get(0).hideCommon(list.get(1), list.get(2));
-                } else if(list.size()==2) {
-                    list.get(0).hideCommon(list.get(1));
-                }*/
-
             }
-            return Mono.just(list);
+            return list.size() > 0 ? Mono.just(list) : Mono.empty();
         }).flatMapMany(Flux::fromIterable);
     }
 

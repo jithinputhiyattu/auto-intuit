@@ -20,26 +20,17 @@ public class CarModelEntity implements Comparable {
     String name;
     String id;
     List<String> variants;
-
-    /*
-    The following fields will be used for calculating suggestion score
-    */
     Double basePrize;
     Double maxPrize;
     String body;
-    Integer seatingCapacity;
-
-    // This score will be used for suggestion
-    double score;
 
     public CarModelEntity() {
         variants = new ArrayList<>();
     }
 
-
     @Override
     public int compareTo(Object object) {
         CarModelEntity that = (CarModelEntity) object;
-        return (int)(that.score-this.score);
+        return (int)(that.basePrize-this.basePrize);
     }
 }
