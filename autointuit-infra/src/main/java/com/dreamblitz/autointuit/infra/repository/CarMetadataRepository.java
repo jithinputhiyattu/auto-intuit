@@ -36,8 +36,12 @@ public class CarMetadataRepository implements ICarMetadataRepository {
                 "hyundaiVenue2022",
                 "hyundaiCreta2022",
                 "tataNexon2022",
+                "mercedesBenzSClass2024",
                 "tataPunch2022",
-                "marutiBrezza2024"
+                "hondaElevate2024",
+                "marutiBrezza2024",
+                "hummerH32010",
+                "audiA42024"
         };
 
         for(String id : carIds) {

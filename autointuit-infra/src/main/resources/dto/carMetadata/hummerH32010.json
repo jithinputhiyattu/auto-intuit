@@ -1,0 +1,8 @@
+{
+  "displayName": "Hummer H3 2010",
+  "carId": "hummerH32010",
+  "popularity" : 100,
+  "model" : 2010,
+  "segment": "Luxury",
+  "body" : "SUV"
+}

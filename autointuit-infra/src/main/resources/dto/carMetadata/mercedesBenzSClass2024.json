@@ -1,0 +1,8 @@
+{
+  "displayName": "Mercedes Benz 2024",
+  "carId": "mercedesBenzSClass2024",
+  "popularity" : 100,
+  "model" : 2024,
+  "segment": "Luxury",
+  "body" : "Sedan"
+}
