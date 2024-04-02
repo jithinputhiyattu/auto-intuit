@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/webflux17-service/src/test/java/com/dreamblitz/autointuit/service/test/service/CarModelServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SuggestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/SuggestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/src/test/java/com/dreamblitz/autointuit/service/test/service/CarModelServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/src/test/java/com/dreamblitz/autointuit/service/test/service/CarModelServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,12 +303,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webflux17-service/src/test/java/com/dreamblitz/autointuit/service/test/service/CarModelServiceTest.java</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webflux17-service/src/test/java/com/dreamblitz/autointuit/service/test/service/CarModelServiceTest.java</url>
-          <line>39</line>
+          <line>38</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

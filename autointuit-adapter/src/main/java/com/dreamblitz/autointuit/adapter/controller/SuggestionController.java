@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "/auto-car-suggest")
+@RequestMapping(path = "/api/car/suggest")
 public class SuggestionController {
 
     @Autowired
