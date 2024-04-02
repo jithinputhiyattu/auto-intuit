@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carMetadata/tataHarrier2024..json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/test/java/test/controller/CarModelControllerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarMetadataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarMetadataRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarModelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarModelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarVariantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarVariantRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +308,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarMetadataRepository.java</url>
-          <line>64</line>
+          <line>66</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>

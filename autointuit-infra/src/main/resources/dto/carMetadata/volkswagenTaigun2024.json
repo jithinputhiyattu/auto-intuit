@@ -1,0 +1,8 @@
+{
+  "displayName": "Volkswagen Taigun",
+  "carId": "volkswagenTaigun2024",
+  "popularity" : 150,
+  "model" : 2022,
+  "segment": "MiddleClass",
+  "body" : "SUV"
+}
