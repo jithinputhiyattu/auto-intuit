@@ -79,7 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CarModelServiceTest.shouldReturnValidCarEntity">
+  <component name="RunManager" selected="Application.AutoIntuit">
     <configuration name="AuthSignatureGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dreamblitz.webflux17.service.AuthSignatureGenerator" />
       <module name="autointuit-service" />
