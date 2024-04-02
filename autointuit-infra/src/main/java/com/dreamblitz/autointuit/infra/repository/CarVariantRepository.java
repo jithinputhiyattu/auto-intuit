@@ -30,7 +30,7 @@ public class CarVariantRepository implements ICarRepository {
 
     @PostConstruct
     public void init() {
-        System.out.println("init");
+        System.out.println("Initializing : CarVariantRepository");
         String [] carIds = {
                 "carHyundaiVenueSPlusPetrol2022",
                 "carToyotaFortuner2022",

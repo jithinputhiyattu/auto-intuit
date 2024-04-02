@@ -31,7 +31,7 @@ public class CarMetadataRepository implements ICarMetadataRepository {
 
     @PostConstruct
     public void init() {
-        System.out.println("init");
+        System.out.println("Initializing : CarMetadataRepository");
         String [] carIds = {
                 "hyundaiVenue2022",
                 "hyundaiCreta2022",

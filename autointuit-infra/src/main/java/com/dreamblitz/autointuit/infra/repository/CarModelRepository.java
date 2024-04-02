@@ -29,7 +29,7 @@ public class CarModelRepository implements ICarModelRepository {
 
     @PostConstruct
     public void init() {
-        System.out.println("init");
+        System.out.println("Initializing : CarModelRepository");
         String [] carIds = {
                 "hyundaiVenue2022",
                 "hyundaiCreta2022",

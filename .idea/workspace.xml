@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carMetadata/mahindraXUV3002024.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/CarModelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/CarModelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-adapter/src/main/java/com/dreamblitz/autointuit/adapter/controller/GenericExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-adapter/src/test/java/test/controller/CarModelControllerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarMetadataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarMetadataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarModelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarModelRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarVariantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/java/com/dreamblitz/autointuit/infra/repository/CarVariantRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carMetadata/audiA42024.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carMetadata/audiA42024.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carMetadata/hyundaiVenue2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carMetadata/hyundaiVenue2022.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carHyundaiVenueSPlusDiesel2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/autointuit-infra/src/main/resources/dto/carVariant/carHyundaiVenueSPlusDiesel2022.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
