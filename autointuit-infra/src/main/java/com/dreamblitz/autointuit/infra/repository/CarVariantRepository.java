@@ -37,7 +37,9 @@ public class CarVariantRepository implements ICarRepository {
                 "carHyundaiCretaSPetrol2022",
                 "carHyundaiCretaSDiesel2022",
                 "carHyundaiVenueSPlusDiesel2022",
-                "carHyundaiVenueSXDiesel2022"
+                "carHyundaiVenueSXDiesel2022",
+                "carHyundaiCretaEPetrol2022",
+                "carHyundaiCretaEDiesel2022"
         };
 
         for(String id : carIds) {

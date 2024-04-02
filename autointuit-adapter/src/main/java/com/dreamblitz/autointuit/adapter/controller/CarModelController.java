@@ -18,7 +18,7 @@ public class CarModelController {
     CarModelService carModelService;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public Mono<ResponseEntity<CarModelEntity>> compareCars(String vehicleId1 ) {
+    public Mono<ResponseEntity<CarModelEntity>> getCarModel(String vehicleId1 ) {
         return carModelService.catCarModelById(vehicleId1 ).map( object -> new ResponseEntity<>(object , HttpStatus.OK));
     }
 }

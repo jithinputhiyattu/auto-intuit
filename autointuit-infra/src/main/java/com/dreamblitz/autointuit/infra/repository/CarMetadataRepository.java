@@ -40,6 +40,8 @@ public class CarMetadataRepository implements ICarMetadataRepository {
                 "tataPunch2022",
                 "hondaElevate2024",
                 "marutiBrezza2024",
+                "mahindraXUV3002024",
+                "mahindraXUV3002024",
                 "hummerH32010",
                 "audiA42024"
         };

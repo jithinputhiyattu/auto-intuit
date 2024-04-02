@@ -21,9 +21,9 @@ public class GenericExceptionHandler {
     }
 
     @ExceptionHandler(value = {CarLimitExceededException.class})
-    public ResponseEntity< List<AutoIntuitErrorDetails>> handleAutoIntuitUnhandledException(
-            CarLimitExceededException autoIntuitUnhandledException) {
-        List<AutoIntuitErrorDetails> errorDetails = autoIntuitUnhandledException.getErrors();
-        return new ResponseEntity<>(errorDetails, autoIntuitUnhandledException.getHttpErrorCode());
+    public ResponseEntity< List<AutoIntuitErrorDetails>> handleCarLimitExceededException(
+            CarLimitExceededException carLimitExceededException) {
+        List<AutoIntuitErrorDetails> errorDetails = carLimitExceededException.getErrors();
+        return new ResponseEntity<>(errorDetails, carLimitExceededException.getHttpErrorCode());
     }
 }
